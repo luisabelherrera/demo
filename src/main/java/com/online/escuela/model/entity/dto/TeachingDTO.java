@@ -1,4 +1,17 @@
 package com.online.escuela.model.entity.dto;
 
-public class TeachingDTO {
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class TeachingDTO implements Serializable {
+
+    private String idTeaching;
 }
