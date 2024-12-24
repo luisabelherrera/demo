@@ -39,9 +39,5 @@ public class LevelDetail implements Serializable {
     @Column(name = "RegistrationDate", nullable = false)
     private LocalDateTime registrationDate = LocalDateTime.now();
 
-    public void setTotalVacancies(int totalVacancies) {
-        this.totalVacancies = totalVacancies;
-        this.availableVacancies = totalVacancies;
-        this.occupiedVacancies = 0;
-    }
+    
 }
