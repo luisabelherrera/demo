@@ -49,4 +49,4 @@ A continuación se presenta un diagrama de modelo relacional simplificado de la 
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-proyecto.git
+   git clone  https://github.com/luisabelherrera/demo/edit/luisabelherrera/ejercicio1
