@@ -1,4 +1,4 @@
 package com.online.escuela.model.entityLogin;
 
-public class Submenu {
+public class Submenu extends Menu{
 }
