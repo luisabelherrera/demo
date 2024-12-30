@@ -1,7 +1,6 @@
 package com.online.escuela.model.entity.dto;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.time.ZonedDateTime;
 import java.util.Date;
 
