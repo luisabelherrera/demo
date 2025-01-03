@@ -9,9 +9,9 @@ public interface AttendantService {
 
     List<AttendantDTO> findAll();
 
-    Optional<AttendantDTO> findById(long id);
+    Optional<AttendantDTO> findById(Long id);
 
     AttendantDTO save(AttendantDTO attendatDTO);
 
-    void deleteById(long id);
+    void deleteById(Long id);
 }
