@@ -34,6 +34,8 @@ public class AttendantServiceImpl implements AttendantService {
                 .map(this::convertToDTO);
     }
 
+
+    
     @Override
     public AttendantDTO save(AttendantDTO attendantDTO) {
         attendantDTO.setRegistrationDate(LocalDateTime.now());

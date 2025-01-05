@@ -8,8 +8,8 @@ import com.online.escuela.model.entity.dto.CoursesDTO;
 public interface CoursesService {
 
     List<CoursesDTO> findAll();
-  Optional<CoursesDTO> findById(long id);
+  Optional<CoursesDTO> findById(Long id);
   CoursesDTO save(CoursesDTO  coursesDTO);
-  void deleteById(long id);
+  void deleteById(Long id);
 
 }
