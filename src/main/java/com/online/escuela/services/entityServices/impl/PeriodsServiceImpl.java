@@ -8,7 +8,12 @@ import org.springframework.stereotype.Service;
 import com.online.escuela.model.entity.dto.PeriodsDTO;
 import com.online.escuela.services.entityServices.PeriodsService;
 
+import lombok.RequiredArgsConstructor;
+
+
+
 @Service
+@RequiredArgsConstructor
 public class PeriodsServiceImpl implements PeriodsService {
 
     @Override

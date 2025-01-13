@@ -8,7 +8,12 @@ import org.springframework.stereotype.Service;
 import com.online.escuela.model.entity.dto.QualificationDTO;
 import com.online.escuela.services.entityServices.QualificationService;
 
+import lombok.RequiredArgsConstructor;
+
+
+
 @Service
+@RequiredArgsConstructor
 public class QualificationServiceImpl implements QualificationService {
 
     @Override

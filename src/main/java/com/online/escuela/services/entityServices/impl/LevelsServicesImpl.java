@@ -8,7 +8,12 @@ import org.springframework.stereotype.Service;
 import com.online.escuela.model.entity.dto.LevelsDTO;
 import com.online.escuela.services.entityServices.LevelsServices;
 
+import lombok.RequiredArgsConstructor;
+
+
+
 @Service
+@RequiredArgsConstructor
 public class LevelsServicesImpl implements LevelsServices{
 
     @Override
